@@ -1,0 +1,161 @@
+{
+"type": "object", 
+"title": "Basic Information About You",
+"properties": {
+ "voter_description_title": {
+	"type": "string",
+	"title": "I hereby declare that (check one of the following)",
+	"format": "title"
+},
+"currently_registered_in_residence": {
+	"title": " I am a duly qualified voter who is currently registered to vote in this town/ward",
+	"type": "boolean",
+	"format": "checkbox"
+},
+"need_registration_materials": {
+	"title": "am absent from the town/city where I am domiciled and will be until after the next election, or I am unable to register in person due to a disability, and request that the forms necessary for absentee voter registration be sent to me with the absentee ballot.",
+	"type": "boolean",
+	"format": "checkbox"
+},
+"excuses_title": {
+	"title": "I will be entitled to vote by absentee ballot because (check one of the following)",
+	"type": "string",
+	"format": "title"
+},
+"excuses_title_weather": {
+	"title": "For use only on the Monday immediately prior to the election: I cannot appear at my polling place on election day because the National Weather Service has issued a winter storm warning, blizzard warning, or ice storm warning for election day applicable to my city, town, or unincorporated place and either (check one):",
+	"type": "string",
+	"format": "title"
+},
+"election_type_request_title": {
+	"title": "III.	I am requesting an official absentee ballot for the following election (check only one)",
+	"type": "string",
+	"format": "title"
+},
+"election_type_description": {
+	"title": "Required for Primary Elections:  I am a member of, or I am now declaring my affiliation with a party and I am requesting a ballot for that party’s primary (check only one):",
+},
+"primary_election_checkbox": {
+	"title": "State Primary Election to be held on September 8, 2020. If yes, select Party Affiliation below",
+	"type": "boolean",
+	"format": "checkbox",
+},
+"dem": {
+	"title": "Democratic Party",
+	"type": "boolean",
+	"format": "checkbox"
+},
+"rep": {
+	"title": "Republican Party",
+	"type": "boolean",
+	"format": "checkbox"
+},
+"general_election_checkbox": {
+	"title": "State General Election to be held on November 3, 2020",
+	"type": "boolean",
+	"format": "checkbox"
+},
+"personal_info_title": {
+	"title": "Applicant's Name and Personal Information",
+	"type": "string",
+	"format": "title"
+},
+"last_name": {
+	"title": "Last Name",
+	"type": "string",
+	"br_required": true
+},
+"first_name": {
+	"title": "First Name",
+	"type": "string",
+	"br_required": true
+},
+"middle_name": {
+	"title": "Middle Name",
+	"type": "string"
+},
+"suffix": {
+	"title": "Suffix (Jr. Sr. II, III",
+	"type": "string"
+},
+"reg_address_title": {
+	"title": "Applicant’s Voting Domicile (home) Address:",
+	"type": "string",
+	"format": "title"
+},
+//reg_address will need to be split by street number, name and apt//
+"reg_address":{
+	"title": "Street Address",
+	"type": "string",
+	"br_required": true
+},
+"reg_city": {
+	"title": "City",
+	"type": "string",
+	"br_required": true
+},
+"reg_ward": {
+	"title": "Ward",
+	"type": "string",
+},
+"reg_zipcode": {
+	"title": "Zip Code",
+	"type": "string",
+	"format": "zipcode",
+	"br_required": true
+},
+"mailing_info_title": {
+	"title": "Mailing Address",
+	"type": "string",
+	"format": "title"
+},
+"mailing_info_description": {
+	"title": "This is the address where your ballot will be mailed",
+	"type": "string",
+	"format": "hidden-field"
+},
+//mail_address will need to be split by street number, name and apt for the form//
+"mail_address": {
+	"title": "Mailing Street Address",
+	"type": "string",
+	"br_required": true
+},
+"mail_city": {
+	"title": "Mailing City/Town",
+	"type": "string",
+	"br_required": true
+},
+"mail_zipcode": {
+	"title": "Mailing State Zip Code",
+	"type": "string",
+	"format": "zipcode",
+	"br_required": true
+},
+"phone": {
+	"title": "Phone Number",
+	"type": "number",
+	"format": "phone-us",
+	"br_required": true
+},
+//in the form this is broken up into 2 fields one for email username and one for browser split by @//
+"email": {
+	"title": "Email Address",
+	"type": "string",
+	"format": "email",
+	"br_required" : true
+},
+"witness_information_title": {
+	"title": "I attest that I assisted the applicant in executing this form because he/she has a disability.",
+	"type": "string",
+	"format": "title"
+},
+"witness_information_description": {
+	"title": "Any person who witnesses and assists a voter with a disability in executing this form shall print and sign his or her name in the space provided on the application form.",
+	"type": "string",
+	"format": "hidden-field"
+},
+"witness_information_print_name": {
+	"title": "Full Name of Witness (if applicable)",
+	"type": "string",
+}
+}

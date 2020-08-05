@@ -1,0 +1,135 @@
+{
+	"fieldnames": [
+		{
+			"name": "Check Box12",
+			"maps_to": "currently_registered_in_residence"
+		},
+		{
+			"name": "Check Box13",
+			"maps_to": "need_registration_materials"
+		},
+		{
+			"name": "Check Box14",
+			"maps_to": "absent"
+		},
+		{
+			"name": "Check Box15",
+			"maps_to": "may_be_absent"
+		},
+		{
+			"name": "Check Box16",
+			"maps_to": "religious_commitment"
+		},
+		{
+			"name": "Check Box17",
+			"maps_to": "disability"
+		},
+		{
+			"name": "Check Box18",
+			"maps_to": "employment_obligation"
+		},
+		{
+			"name": "Check Box19",
+			"maps_to": "weather"
+		},
+		{
+			"name": "Check Box20",
+			"maps_to": "child_care"
+		},
+		{
+			"name": "Check Box21",
+			"maps_to": "primary_election_checkbox"
+		},
+		{
+			"name": "dem",
+			"maps_to": "dem"
+		},
+		{
+			"name": "rep",
+			"maps_to": "rep"
+		}
+		{
+			"name": "Check Box22",
+			"maps_to": "general_election_checkbox"
+		},
+		{
+			"name": "Last Name",
+			"maps_to": "last_name"
+		},
+		{
+			"name": "First Name",
+			"maps_to": "first_name"
+		},
+		{
+			"name": "Middle Name",
+			"maps_to": "middle_name"
+		},
+		{
+			"name": "Jr Sr IIIII",
+			"maps_to": "suffix"
+		},
+		{
+			"name": "Street Name",
+			"maps_to": "reg_address"
+		},
+		{
+			"name": "CityTown",
+			"maps_to": "reg_city"
+		},
+		{
+			"name": "Ward",
+			"maps_to": "reg_ward"
+		},
+		{
+			"name": "Zip Code",
+			"maps_to": "reg_zipcode"
+		},
+		{
+			"name": "Street or PO Box",
+			"maps_to": "mailing_address_street_number"
+		},
+		{
+			"name": "Street name",
+			"maps_to": "mail_address"
+		},
+		{
+			"name": "AptUnit_2",
+			"maps_to": "mail_address_unit"
+		},
+		{
+			"name": "CityTown_2",
+			"maps_to": "mail_city"
+		},
+		{
+			"name": "State Zip Code",
+			"maps_to": "mail_zip"
+		},
+		{
+		//note that in the form phone is broken up into three fields (applicants phone number, undefined, and undefined_2 all directed to the "phone")
+			"name": "Applicants Phone Number",
+			"maps_to": "phone"
+		},
+		{
+			"name": "undefined",
+			"maps_to": "phone",
+		},
+		{
+			"name": "undefined_2",
+			"maps_to": "phone"
+		},
+		{
+			"name": "Applicants Email Address",
+			"maps_to": "email_username"
+		},
+		{
+			"name": "undefined_3",
+			"maps_to": "email_browser"
+		},
+		{
+			"name": "Print Name",
+			"maps_to": "witness_information_print_name"
+		}
+	]
+}
+
+Included excuse field names in this list
