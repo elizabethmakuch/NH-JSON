@@ -83,7 +83,7 @@
 	"type": "string",
 	"format": "title"
 },
-//reg_address will need to be split by street number, name and apt//
+//reg_address will need to be split by street number, name and apt for the form//
 "reg_address":{
 	"title": "Street Address",
 	"type": "string",
